@@ -1,6 +1,6 @@
 {
   "name": "classcombine",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "combineclassname ",
   "main": "lib/index.js",
   "scripts": {
