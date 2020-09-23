@@ -2,7 +2,7 @@
   "name": "classcombine",
   "version": "1.0.4",
   "description": "combineclassname ",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
@@ -29,5 +29,5 @@
   "files": [
     "lib/**/*"
   ],
-  "types": "/lib/index.d.ts"
+  "types": "lib/index.d.ts"
 }
