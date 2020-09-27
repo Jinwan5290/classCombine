@@ -6,9 +6,9 @@ import cls from 'classcombine'
 <div
 	className={
     cls({
-      style1: true,
-      style2: false,
-      style3: true,
+      [styles.demo1]: true,
+      [styles.demo2]: false,
+      [styles.demo3]: true
     })
   }
 >Test demo</div>
@@ -18,7 +18,7 @@ import cls from 'classcombine'
 After compilation：
 
 ```typescript
-<div class="style1 style3">Testdemo</div>
+<div class="demo1 demo3">Testdemo</div>
 ```
 
 
