@@ -1,16 +1,14 @@
 interface ClassArgs {
-  [className: string]: boolean;
+  [className: string]: boolean
 }
 
 export default (args: ClassArgs): string => {
-  if (!Object.keys(args).length) return "";
+  if (!Object.keys(args).length) return ''
 
-  return (
-    Object.keys(args).reduce((combineClass, curClass) => {
-      if (args[curClass] === true) combineClass += " " + curClass;
-      return combineClass;
-    }) || ""
-  );
-};
+  return Object.keys(args).reduce((combineClass, curClass) => {
+    if (args[curClass] === true) combineClass += ' ' + curClass
+    return combineClass
+  }, '')
+}
 
 // created by jinwan
